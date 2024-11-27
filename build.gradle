@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'group'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = "Main"
+
+dependencies {
+    implementation 'org.json:json:20211205'
+}
